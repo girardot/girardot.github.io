@@ -1,1 +1,154 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+<h1>Hello, world!</h1>
+
+<script src="js/bootstrap.min.js"></script>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">C1</div>
+                <div class="panel-body">
+
+                    <div class="list-group">
+                        <a href="#" class="list-group-item active">AAAAAA
+                            <button class="btn btn-xs btn-danger pull-right" ng-click="handleButtonClick()">-
+                            </button>
+                        </a>
+                        <a href="#" class="list-group-item">BBBBBBBBBB
+                            <button class="btn btn-xs btn-danger pull-right" ng-click="handleButtonClick()">-
+                            </button>
+                        </a>
+                        <a href="#" class="list-group-item">CCC
+                            <button class="btn btn-xs btn-danger pull-right" ng-click="handleButtonClick()">-
+                            </button>
+                        </a>
+                        <a href="#" class="list-group-item">DDDDDDDDDDDDD
+                            <button class="btn btn-xs btn-danger pull-right" ng-click="handleButtonClick()">-
+                            </button>
+                        </a>
+                    </div>
+
+                    <form ng-submit="addConsole()">
+                        <div class="input-group">
+                            <input class="form-control" type="text" ng-model="newConsole" size="30"
+                                   placeholder="new console"/>
+                            <span class="input-group-addon" type="submit">+</span>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">J2</div>
+                <div class="panel-body">
+
+                    <input class="form-control" type="text" ng-model="consoleNameSearch" placeholder="search">
+                    <div>&nbsp;</div>
+
+                    <div class="list-group">
+                        <a href="#" class="list-group-item">
+
+                            <h6 class="text-center">
+                                2222222222222
+                                <button class="btn btn-xs btn-danger pull-right" ng-click="handleButtonClick()">-</button>
+                            </h6>
+
+                            <div class="progress progress-striped">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="100"
+                                     aria-valuemin="0" aria-valuemax="100" style="width: 100%"> DONE
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item"><h6>2222222222222</h6>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="0"
+                                     aria-valuemin="0" aria-valuemax="100" style="width: 0%"> TODO
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item"><h6>2222222222222</h6>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info  progress-bar-success" role="progressbar" aria-valuenow="0"
+                                     aria-valuemin="0" aria-valuemax="100" style="width: 50%"> In Progress
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="list-group-item"><h6>2222222222222</h6>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="0"
+                                     aria-valuemin="0" aria-valuemax="100" style="width: 50%"> In Progress
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="list-group-item"><h6>2222222222222</h6>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="0"
+                                     aria-valuemin="0" aria-valuemax="100" style="width: 50%"> In Progress
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="list-group-item"><h6>2222222222222</h6>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="0"
+                                     aria-valuemin="0" aria-valuemax="100" style="width: 50%"> In Progress
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="list-group-item"><h6>2222222222222</h6>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="0"
+                                     aria-valuemin="0" aria-valuemax="100" style="width: 50%"> In Progress
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="list-group-item"><h6>2222222222222</h6>
+
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="0"
+                                     aria-valuemin="0" aria-valuemax="100" style="width: 50%"> In Progress
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <form ng-submit="addGame()">
+                        <div class="input-group">
+                            <input class="form-control" type="text" ng-model="newGame" size="30" placeholder="new game">
+                            <span class="input-group-addon" type="submit">+</span>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
